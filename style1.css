@@ -1,0 +1,253 @@
+*{
+    margin:0;
+    padding:0; 
+    font-family:sans-serif,Georgia, 'Times New Roman', Times, serif;
+ }
+ #shopping{
+     background:linear-gradient(rgba(0,0,0,0.5),#007f96),url(shopping.jpg);
+     background-size:cover;
+     background-position:center;
+     height:100vh;
+ }
+ .main{
+    text-align:center;
+    color:#fff;
+    padding-top: 240px;
+ }
+ .main h1{
+     font-size:40px;
+ }
+ .main p{ 
+    font-size:20px;
+}
+ .button{
+    margin:40px auto 0;
+}
+.button a{
+
+    text-decoration:none;
+    color:azure;
+    width:150px;
+    text-align:center;
+    display:inline-block;
+    margin:0 10px;
+    padding:12px 0;
+    border:0.5px solid #fff;
+}
+.button a:hover{
+    color:darkgray;
+}
+ #nav{
+    width: 250px;
+    height:100vh;
+    position: absolute;
+    right: 0;
+    top:0;
+    background: #007f96;
+    z-index: 2;
+    transition:0.5;
+}
+#nav ul li{
+
+
+    list-style: none;
+    margin: 50px 20px;
+
+}
+#nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding:.2em 1em;
+}
+#nav a:hover{
+    background-color:#fff;
+    color:#000;
+}
+#menubtn{
+    width: 40px;
+    height: 30px;
+    background: #007f96;
+    text-align: center;
+    position:absolute;
+    right:15px;
+    top:25px;
+    border-radius: 1px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menubtn img{
+    width:20px;
+    height:20px;
+}
+.logo{
+    position:absolute;
+    left:10px;
+    top:20px;
+}
+.logo img{
+    width:30px;
+    height:20px;
+}
+#search{
+    height:120vh;
+    background:url(search3.png);
+    background-size:cover;
+    background-position:center;
+}
+.search1{
+    text-align:center;
+    padding-top:10px;
+}
+.search1 h1{
+    font-size:40px;
+}
+.search1 p{ 
+   font-size:20px;
+   padding-top:5px;
+}
+.searchblock ul li{
+    
+
+    list-style: none;
+    text-align: center;
+    margin:50px;
+    margin-right: 600px;
+    margin-left: 600px;
+    padding:10px;
+    border:#007f96 solid;
+    background:white;
+    
+}
+.searchblock ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+}
+.searchblock a:hover{
+    background:#007f96;
+    color:#fff;
+}
+#about{
+    margin:15px;
+    border:2px solid #007f96;
+    padding:30px;
+    }
+.about1{
+    background-color:#fff;
+    color:black;
+}
+.about1 h3{
+    color:black;
+    font-size:150%;
+    text-align:center;
+    
+    }
+.abouttxt{
+        background-color:#007f96;
+        color:white;}
+#contact1{
+    background:url(contactt.png);
+    background-size:cover;
+    background-position:center;
+    height:70vh;
+    padding-top:30px;
+        }
+ #contact{
+            margin:auto;
+            display:table;
+            padding:10px;
+            border:solid #007f96 2px;
+            position:relative;
+            top:0%;
+            -webkit-transform:translateY(20%);
+            -ms-transform:translateY(20%);
+            transform:translateY(20%);
+            
+            }
+#contact1 h3{
+                color:#000;
+                font-size:150%;
+                text-align:center;
+                top:15px;
+                
+                }
+.container{
+            display:table-row;
+            }
+.container label{
+         display:table-cell;
+        padding:30px;
+        }
+.container input{
+            display:table-cell;
+            padding:5px;
+            }
+.container select{
+            display:table-cell;
+            padding:2px;
+            }
+.container over{
+            display:table-cell;
+            padding:2px;
+         }
+.bt1{
+             text-align:center;
+             margin:40px auto 0px;
+         }
+.bt1 a{
+    text-decoration: None;
+    color:black;
+    display:inline-block;
+    margin:0 10px;
+    padding:12px 12px;
+    border:0.5px solid #000;
+}
+.bt1 a:hover{
+    background:black;
+    color:#007f96;
+}
+.instagram{
+    position:absolute;
+    top:275%;
+    right:290px;
+}
+.instagram img{
+    width:30px;
+    height:80px;
+}
+.whatsapp{
+    position:absolute;
+    top:275%;
+    right:50px;
+}
+.whatsapp img{
+    width:30px;
+    height:20px;
+}
+.facebook{
+    position:absolute;
+    top:250%;
+    right:200px;
+}
+.facebooks img{
+    width:30px;
+    height:50px;
+}
+#footer{
+    background-color:#007f96;
+    margin:10px;
+    height:60px;
+    border-radius:5px;
+    clear:both;
+    font-family:Arial;
+    color:white;
+    text-align:center;
+}
+.footer1{
+    position:relative;
+    top:50%;
+    -webkit-transform:translateY(50%);
+    -ms-transform:translateY(50%);
+    transform:translateY(50%);
+}
+
